@@ -26,9 +26,7 @@ jobs:
       # Not yet sure how best to work with this
       - name: Get list of changed files
         working-directory: ${{github.workspace}}
-        run: |
-          gem list -i git
-          ruby ./changed.rb --compare_with origin/master
+        run: ruby ./changed.rb --compare_with origin/master
 
       - name: Create Build Environment
         # Some projects don't allow in-source building, so create a separate build directory
