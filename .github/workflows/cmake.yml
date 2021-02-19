@@ -21,7 +21,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
-        run: gem list -i git
 
       # This should be done before master is merged as files changed in master should also trigger anything necessary
       # Not yet sure how best to work with this
