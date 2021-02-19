@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    git (1.8.1)
+      rchardet (~> 1.8)
+    rchardet (1.8.0)
+
+PLATFORMS
+  x64-mingw32
+  x86_64-linux
+
+DEPENDENCIES
+  git
+
+BUNDLED WITH
+   2.2.11
